@@ -7,3 +7,11 @@ In chapter 6 we build a production environment for microservices on Kubernetes u
 Please see README in each sub-directory for instructions on starting the particular example.
 
 [Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
+terraform {
+required_providers {
+azurerm = {
+source = "hashicorp/azurerm"
+version = "3.16.0"
+}
+}
+}

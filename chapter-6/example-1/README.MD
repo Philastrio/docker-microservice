@@ -1,4 +1,4 @@
-# Example-1
+Example-1
 
 This example uses Terraform to create a resource group in Azure.
 
